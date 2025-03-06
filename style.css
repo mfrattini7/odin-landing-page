@@ -1,0 +1,40 @@
+* {
+    border: 1px solid red;
+    min-width: 5px;
+    min-height: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1px;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+li {
+    list-style: none;
+}
+
+#header-links {
+    display: flex;
+    align-items: right;
+}
+
+#div-1 {
+    background-color: 1f2937;
+}
+
+
+#quote {
+    background-color: #e5e7eb;
+}
+
+#quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937
+}
+
+footer {
+    background-color: #1f2937;
+}
