@@ -16,8 +16,9 @@ header {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    margin-left: 100px;
+    margin-left: 300px;
     align-items: center;
+    padding-top: 5px;
 }
 
 #header-links {
@@ -26,7 +27,7 @@ header {
     display: flex;
     gap: 10px;
     justify-content: end;
-    margin-left: 300px;
+    margin-left: 750px;
     align-items: center;
 }
 
@@ -42,7 +43,7 @@ ul {
 }
 
 #hero-container {
-    margin: 100px;
+    margin: 100px 300px;
 }
 
 #hero-title {
@@ -70,17 +71,57 @@ ul {
 }
 
 #image-placeholder {
-    padding:50px;
+    padding: 50px;
     background-color: grey;
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
-    margin-right: 50px;
+    margin-top: 100px;
+    margin-right: 300px;
+    width: 500px;
+    height: 200px;
+}
+
+#image-placeholder p {
+    text-align: center;
+    vertical-align: center;
+    padding-top: 30px;
 }
 
 #cards {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     height: 350px;
+}
+
+#cards-top {
+    width: 500px;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 38%;
+    padding-top: 25px;
+}
+
+#cards-bottom {
+    padding-top: 5px;
+    width: 800px;
+    margin-left:30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.card-text {
+    color: gray;
+    font-size: 14px;
+    padding-top: 10px;
 }
 
 #quote {
@@ -100,7 +141,7 @@ ul {
     font-weight: bold;
     font-size: 24px;
     margin-top: 20px;
-    margin-left: 800px;;
+    margin-left: 60%;;
 }
 
 #call-to-action-box{
