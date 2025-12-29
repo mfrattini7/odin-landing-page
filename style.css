@@ -63,9 +63,9 @@ ul {
 #top-sign-up {
     background-color: #3882f6;
     border: #3882f6;
-    padding:5px;
+    padding: 5px;
     color: white;
-    width:100px;
+    width: 100px;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -105,7 +105,7 @@ ul {
 #cards-bottom {
     padding-top: 5px;
     width: 800px;
-    margin-left:30%;
+    margin-left: 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -141,10 +141,11 @@ ul {
     font-weight: bold;
     font-size: 24px;
     margin-top: 20px;
-    margin-left: 60%;;
+    margin-left: 60%;
+    ;
 }
 
-#call-to-action-box{
+#call-to-action-box {
     width: 80%;
     padding: 30px 60px;
     background-color: #3882f6;
@@ -165,13 +166,13 @@ ul {
 }
 
 #bottom-sign-up {
-        background-color: #3882f6;
-        border: 1px solid white;
-        padding:5px;
-        color: white;
-        width:100px;
-        font-weight: bold;
-        border-radius: 5px;
+    background-color: #3882f6;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 footer {
